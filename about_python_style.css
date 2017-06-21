@@ -1,5 +1,7 @@
 #wrapper{
 	width: 970px;
+	height: 800px;
+	margin: 0 auto;
 }
 #wrapper *{
 	display: inline-block;
@@ -12,7 +14,47 @@
 	background:#245176;
 }
 #logoSearch{
+	width: 100%;
 	height: 25%;
+}
+#logoSearch img{
+	height: 100%;
+}
+#rightSide{
+	margin-left: 18%;
+	height: 100%;
+	vertical-align: top;
+}
+#textStuff{
+	margin-left: 40%;
+}
+#wText{
+	color: white;
+}
+#textStuff a{
+	color: #ae9d18;
+}
+#textStuff a:hover{
+	color: #e7c437;
+}
+#search{
+	margin-left: 20%;
+	margin-bottom: 15%;
+	width: 73%;
+	height: 50%;
+	background-color: #444444; 
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px #000;
+}
+#search input{
+	margin-top: 7.5%;
+	margin-left: 14%;
+}
+#search button{
+	background-color: #245176;
+	color: white;font-size: 7px;
+	padding: 5px;
+	border-radius: 4px;
 }
 #navTop{
 	height: 15%;
@@ -23,13 +65,23 @@
 }
 #navSide{
 	width: 30%;
+	vertical-align: top;
 }
 #content{
 	width: 70%;
+	vertical-align: top;
 }
 
 #middle{
 	height: 30%;
+}
+#leftCol{
+	width: 50%;
+	vertical-align: top;
+}
+#rightCol{
+	width: 50%;
+	vertical-align: top;
 }
 ul li{
 	display: list-item;
@@ -45,4 +97,30 @@ ul li{
     background: -o-linear-gradient(#2c587b, #3575ad); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#2c587b, #3575ad); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#2c587b, #3575ad); /* Standard syntax */
+}
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
 }
