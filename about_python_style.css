@@ -11,7 +11,35 @@
 	height: 60%;
 	background:#245176;
 }
+#logoSearch{
+	height: 25%;
+}
+#navTop{
+	height: 15%;
+	width: 100%;
+}
+#navSide, #content{
+	height: 60%;
+}
+#navSide{
+	width: 30%;
+}
+#content{
+	width: 70%;
+}
+
+#middle{
+	height: 30%;
+}
+ul li{
+	display: list-item;
+	list-style-type: disc;
+}
+
+
+
 #bottom{
+	height: 10%;
 	background: #2c587b; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#2c587b, #3575ad); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#2c587b, #3575ad); /* For Opera 11.1 to 12.0 */
