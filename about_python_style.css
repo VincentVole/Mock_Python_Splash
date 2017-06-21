@@ -1,0 +1,20 @@
+#wrapper{
+	width: 970px;
+}
+#wrapper *{
+	display: inline-block;
+}
+#top, #middle, #bottom{
+	width: 100%;
+}
+#top{
+	height: 60%;
+	background:#245176;
+}
+#bottom{
+	background: #2c587b; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#2c587b, #3575ad); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#2c587b, #3575ad); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#2c587b, #3575ad); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#2c587b, #3575ad); /* Standard syntax */
+}
