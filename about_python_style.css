@@ -78,10 +78,53 @@
 #navSide{
 	width: 30%;
 	vertical-align: top;
+	text-align: center;
+	margin-top: 10px;
+}
+#navSide li{
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	display: list-item;
+	list-style-position: inside;
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+.arrows{
+	color: #f6d52f;
+	font-size: 7px;
+	margin-right: 5px;
 }
 #content{
-	width: 70%;
+	width: 62%;
 	vertical-align: top;
+	text-align: center;
+}
+#content li{
+	display: list-item;
+	list-style-type: none;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	font-style: italic;
+	font-family: Arial, sans-serif;
+	color: #eecf42;
+}
+#content ul{
+	margin-bottom: 0;
+}
+#zen{
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: white;
+	font-family: Arial, sans-serif;
+}
+#tldr{
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: white;
+	margin-bottom: 0;
 }
 
 #middle{
