@@ -127,21 +127,45 @@
 	margin-bottom: 0;
 }
 
+
+
 #middle{
 	height: 30%;
 }
-#leftCol{
-	width: 50%;
-	vertical-align: top;
+.blueBar{
+	background-color: #76a9d6;
+	height: 2%;
+	width: 80%;
+	margin: 2% 10% 0 10%;
 }
-#rightCol{
-	width: 50%;
-	vertical-align: top;
+#middle h3{
+	margin: 0;
+	margin-top: 5px;
 }
-ul li{
+#middle li{
 	display: list-item;
-	list-style-type: disc;
+	list-style-type: square;
+	margin-bottom: 3px;
 }
+#middle li p, #blueToo{
+	margin: 0;
+	color: #91bbdd;
+}
+#middle ul{
+	margin: 0;
+}
+#leftCol, #rightCol{
+	width: 50%;
+	vertical-align: top;
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+#leftCol>p, #rightCol>p{
+	width: 69%;
+	font-size: 12px;
+	margin: 0 12.5%;
+}
+
 
 
 
@@ -153,7 +177,10 @@ ul li{
     background: -moz-linear-gradient(#2c587b, #3575ad); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#2c587b, #3575ad); /* Standard syntax */
 }
-
+#info, #copyright{
+	margin-top: 20px;
+	color: #78abd8;
+}
 
 
 
