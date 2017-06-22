@@ -176,13 +176,25 @@
     background: -o-linear-gradient(#2c587b, #3575ad); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#2c587b, #3575ad); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#2c587b, #3575ad); /* Standard syntax */
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
 #info, #copyright{
-	margin-top: 20px;
 	color: #78abd8;
 }
-
-
+#info{
+	width: 60%;
+	height: 52%;
+	margin: 23px 20% 0 20%;
+}
+#info p{
+	margin-left: 40px;
+	font-size: 14px;
+}
+#copyright{
+	margin: 0;
+	font-size: 8px;
+}
 
 
 
