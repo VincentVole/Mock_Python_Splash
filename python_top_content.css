@@ -66,16 +66,21 @@
 	height: 8%;
 	width: 84%;
 	font-size: 20px;
-	color: white;
 	background-color: #467dac; 
 	margin-left: 10%;
 	margin-top: 15px;
 	border-radius: 4px;
 	box-shadow: 2px 2px 5px #000;
 }
-	#navTop *{
+	#navTop li{
 		margin-left: 5%;
 		margin-top: 8px;
+	}
+	#navTop a{
+		text-decoration: none;
+	}
+	#navTop a:visited{
+		color: white;
 	}
 #navSide, #content{
 	height: 60%;
@@ -94,6 +99,9 @@
 			list-style-position: inside;
 			list-style-type: none;
 			margin-bottom: 10px;
+		}
+		#navSide a:visited{
+		color: white;
 		}
 			.arrows{
 				color: #f6d52f;
