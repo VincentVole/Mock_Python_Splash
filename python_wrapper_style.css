@@ -1,0 +1,9 @@
+#wrapper{
+	width: 970px;
+	height: 800px;
+	margin: 0 auto;
+}
+	#wrapper *{
+		display: inline-block;
+		font-family: Arial, sans-serif;
+	}
